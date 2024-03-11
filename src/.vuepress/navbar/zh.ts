@@ -3,14 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   "/demo/",
-  {
-    text: "Java基础",
-    icon: "java",
-    prefix: "java/",
-    children: [
-      "JavaBase",
-    ]
-  },
+ 
   {
     text: "面试指南",
     icon: "lightbulb", 
