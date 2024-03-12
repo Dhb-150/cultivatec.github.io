@@ -3,13 +3,20 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/": [
     "",
-
+    {
+      text: "Java基础学习输入",
+      icon: "basic",
+      prefix: "Java/",
+      children: [
+        "JavaBasisInput",
+      ],
+    },
     {
       text: "Java基础",
       icon: "java",
-      prefix: "java/",
+      prefix: "Java/",
       children: [
-        "JavaBase",
+        "JavaBasis",
       ]
     },
     {
