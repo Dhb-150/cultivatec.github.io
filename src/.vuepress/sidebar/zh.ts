@@ -9,6 +9,7 @@ export const zhSidebar = sidebar({
       prefix: "Java/",
       children: [
         "JavaBasisInput",
+        "reflection",
       ],
     },
     {
